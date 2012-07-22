@@ -33,24 +33,11 @@
 	</head>
 
 	<body>
-		<div id="blog_content">
-			<div id="title">
-			  <h1 class="title"><a href="/">{ 'Edegilson Sousa' };</a></h1>
-			  <p class="title_contents">
-				tecnologia, desenvolvimento .Net, mobile, e mais alguma coisa.
-			  </p>
-			</div>
-			<div id="blog_content">
-				<div id="posts_home">
-					{{ content }}
-				</div>
-			</div>
-		</div>
-		<div class="footer">
-			<div class="footer_content">
+		<div class="topo">
+			<div class="topo_content">
 				<ul>
 					<li><a href="/about/">me</a></li>
-					<li><a href="http://twitter.com/edegilsoned" target="_blank">@edegilsoned</a></li>
+					<li><a href="http://twitter.com/edegilsoned" target="_blank">twitter</a></li>
 					<li><a href="http://github.com/edegilson" target="_blank">github</a></li>
 					<li class="feed"><a href="/atom.xml">Feed</a></li>
 				</ul>
@@ -61,7 +48,7 @@
 				  <input type="hidden" name="ie" value="UTF-8">
 				  <input type="hidden" name="oe" value="UTF-8">
 				  <input class="field" type="text" name="q" size="20" maxlength="255" value="" placeholder="search...">
-				  <input class="button" type="submit" name="btnG" value="go" title="Search">
+				  <input class="button" type="submit" name="btnG" value="Ir" title="Search">
 				  <input type="hidden" name="domains" value="edegilson.com">
 				  <input type="hidden" name="sitesearch" value="">
 				  <input type="hidden" name="sitesearch" value="edegilson.com">
@@ -73,5 +60,19 @@
 				src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" 
 				alt="Fork me on GitHub">
 		</a>
+		<div id="blog_content">
+			<div id="title">
+			  <h1 class="title"><a href="/">{ 'Edegilson Sousa' };</a></h1>
+			  <p class="title_contents">
+				tecnologia, desenvolvimento .Net, mobile, e mais..
+			  </p>
+			</div>
+			<div id="blog_content">
+				<div id="posts_home">
+					{{ content }}
+				</div>
+			</div>
+		</div>
+		<div class="footer"></div>
 	</body>
 </html>
