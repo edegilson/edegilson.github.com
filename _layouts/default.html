@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1 "/>
+		<meta name="description" content="{{ page.description }}" />
+		<meta name="keywords" content="desenvolvimento,produtos,web,mobile, cloud,negócios,idéias,práticas,.NET,ruby,osx,ios,{{page.keywords | join: ','}}" />
+
+		{% assign sep = "" %}
+		{% if page.title %}
+			{% assign sep = " - " %}
+		{% endif %}
+		<title>Edegilson Sousa{{ sep }}{{ page.title }}</title>
+
+		<!-- blog style -->
+		<link rel="stylesheet" href="/css/site.css" type="text/css"/>
+
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-11160168-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+            var WRInitTime=(new Date()).getTime();
+		</script>
+	</head>
+
+	<body>
+		<div id="blog_content">
+			<div id="title">
+			  <h1 class="title"><a href="/">Blog { Name = 'Edegilson Sousa' }</a></h1>
+			  <p class="title_contents">
+				tecnologia, desenvolvimento .Net, mobile, e mais alguma coisa.
+			  </p>
+			</div>
+			<div id="blog_content">
+				<div id="posts_home">
+					{{ content }}
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer_content">
+				<ul>
+					<li><a href="/about/">me</a></li>
+					<li><a href="http://twitter.com/edegilsoned" target="_blank">@edegilsoned</a></li>
+					<li><a href="http://github.com/edegilson" target="_blank">github</a></li>
+					<li class="feed"><a href="/atom.xml">Feed</a></li>
+				</ul>
+			</div>
+			<div class="search">
+				<!-- SiteSearch Google -->
+				<form method="GET" action="http://www.google.com/search" target="_blank">
+				  <input type="hidden" name="ie" value="UTF-8">
+				  <input type="hidden" name="oe" value="UTF-8">
+				  <input class="field" type="text" name="q" size="20" maxlength="255" value="" placeholder="search...">
+				  <input class="button" type="submit" name="btnG" value="go" title="Search">
+				  <input type="hidden" name="domains" value="edegilson.com">
+				  <input type="hidden" name="sitesearch" value="">
+				  <input type="hidden" name="sitesearch" value="edegilson.com">
+				</form>
+			</div>
+		</div>
+		<a href="https://github.com/edegilson/edegilson.github.com" target="_blank">
+			<img style="position: fixed; top: 0; left: 0; border: 0;" 
+				src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" 
+				alt="Fork me on GitHub">
+		</a>
+	</body>
+</html>
