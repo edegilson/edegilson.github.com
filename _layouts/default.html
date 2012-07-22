@@ -5,20 +5,21 @@
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1 "/>
 		<meta name="description" content="{{ page.description }}" />
-		<meta name="keywords" content="desenvolvimento,produtos,web,mobile, cloud,negócios,idéias,práticas,.NET,ruby,osx,ios,{{page.keywords | join: ','}}" />
+		<meta name="keywords" content="desenvolvimento,web,mobile,idéias,.NET,{{page.keywords | join: ','}}" />
 
-		{% assign sep = "" %}
+		{% assign separador = "" %}
 		{% if page.title %}
-			{% assign sep = " - " %}
+			{% assign separador = " - " %}
 		{% endif %}
-		<title>Edegilson Sousa{{ sep }}{{ page.title }}</title>
+		<title>Edegilson Sousa{{ separador }}{{ page.title }}</title>
 
 		<!-- blog style -->
 		<link rel="stylesheet" href="/css/site.css" type="text/css"/>
 
 		<script type="text/javascript">
+
 		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-11160168-1']);
+		  _gaq.push(['_setAccount', 'UA-33573366-1']);
 		  _gaq.push(['_trackPageview']);
 
 		  (function() {
@@ -26,14 +27,15 @@
 		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
-            var WRInitTime=(new Date()).getTime();
+
 		</script>
+
 	</head>
 
 	<body>
 		<div id="blog_content">
 			<div id="title">
-			  <h1 class="title"><a href="/">Blog { Name = 'Edegilson Sousa' }</a></h1>
+			  <h1 class="title"><a href="/">{ 'Edegilson Sousa' };</a></h1>
 			  <p class="title_contents">
 				tecnologia, desenvolvimento .Net, mobile, e mais alguma coisa.
 			  </p>
@@ -66,7 +68,7 @@
 				</form>
 			</div>
 		</div>
-		<a href="https://github.com/edegilson/edegilson.github.com" target="_blank">
+		<a href="https://github.com/Edegilson/edegilson.github.com" target="_blank">
 			<img style="position: fixed; top: 0; left: 0; border: 0;" 
 				src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" 
 				alt="Fork me on GitHub">
