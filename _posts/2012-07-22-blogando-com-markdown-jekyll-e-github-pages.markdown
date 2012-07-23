@@ -24,6 +24,8 @@ Para ajudar as pessoas na criação e compartilhamento de conteúdo, surgiram os CM
 
 Mas o que me incomoda nesses CMS's? <br>
 Gosto de ter "controle" sobre o que faço/escrevo. E testando alguns dos editores dessas *engines*, não me senti confortável com o resultado. Se utilizasse o modo texto, o html que era gerado não era dos melhores, e se utilizasse o modo html, o trabalho para se conseguir o resultado esperado era grande.
+Além disso, não gostava da idéia de o conteúdo ter que ficar em banco de dados. <br>
+Queria que meu blog fosse simples e rápido.
 
 Foi ai que conheci o <a href="http://daringfireball.net/projects/markdown/" alt="Markdown" target="_blank">Markdown</a>
 
