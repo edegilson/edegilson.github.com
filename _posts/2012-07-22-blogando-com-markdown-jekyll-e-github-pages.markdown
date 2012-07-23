@@ -61,7 +61,7 @@ Me sinto muito mais confortável dessa forma, com um editor de texto (recomento o
 
 Aprendi bastante com essa experiência.
 
-Meu <a href="https://github.com/Edegilson/edegilson.github.com" alt="github" target="_blank">blog</a> e toda sua estrutura está no github e pode ser olhado, *forkado* e etc. =D
+Meu blog e toda sua estrutura está no github e pode ser olhado, *forkado* e etc. <a href="https://github.com/Edegilson/edegilson.github.com" alt="github" target="_blank">https://github.com/Edegilson/edegilson.github.com</a> =D
 
 Bom, é isso, abs, <br>
 Edegilson Sousa.
