@@ -8,27 +8,24 @@ div#title{text-align: center;border-radius:10px;}
 h1.title, h1.title a, h1.title a:visited{font-family:Verdana,Geneva,sans-serif;font-size:50px;text-shadow: 1px 1px 1px #ddd;color:#333;text-decoration:none;text-align:center;}
 p.title_contents{font-size:20px;margin-top:5px;text-align:center;text-shadow: 1px 1px 1px #CCC;}
 
-div#blog_content{width:70%;margin:0 auto 60px auto;border-radius:5px;padding:10px 10 10 10px;}
+div#blog_content{width: 840px;margin:0 auto 60px auto;padding:10px 10 10 10px;}
 ul.posts li{list-style-type:none;}
-ul.posts li a, ul.posts li a:visited{color: #333;}
-ul.posts li p{margin: 5px 0;font-size: 20px;text-shadow: 1px 1px 1px #CCC;}
+ul.posts li a, ul.posts li a:visited{color:#3B5998;}
+ul.posts li p{margin: 5px 0 0 0;font-size: 20px;text-shadow: 1px 1px 1px #CCC;}
 ul.posts li p span.date{color:#E8117F;}
-h2.post_title{color: #E8117F;text-shadow: 1px 1px 1px #CCC;font-size: 34px;}
-h2.post_title a, h2.post_title a:visited {text-decoration:none; color: #3B5998;}
+h2.post_title{color:#3B5998;text-shadow: 1px 1px 1px #CCC;font-size: 34px;}
+h2.post_title a, h2.post_title a:visited {text-decoration:none;color:#3B5998;}
 
-div#all_tags{margin-top:10px;}
-div#all_tags ul li{display: inline;font-size:11px;font-style: italic;margin:3px;}
-div#all_tags a, div#all_tags a:visited{color:#333;line-height:22px;}
-
-div#post{margin-bottom:40px;}
-div#post p.post-date{margin: -5px 0 25px 0;letter-spacing: 1px;font-size: 20px;}
+div#post{margin-bottom:20px;}
+div#post p.post-date{margin: -5px 0 25px 0;letter-spacing: 1px;font-size: 15px;}
+div#post a {text-decoration:none;}
 div#post pre{padding:5px;background-color:#f0f3f3;}
 div#post ul {margin-left: 40px}
 
 div.topo {text-align:center;position:fixed;left:0;right:0;top:0;height:50px;width:100%;background:#3B5998;font-family:Verdana,Geneva,sans-serif;}
 div.topo .topo_content{width: 840px;margin: auto;}
 .topo_content a{color:#fff;text-decoration:none;}
-div.topo ul{color: #fff;padding:20px 0;}
+div.topo ul{color:#fff;padding:20px 0;}
 div.topo ul li{list-style-type: none;	display: inline;margin-right:27px;}
 div.topo ul li.feed{background: url(/images/feed.png) no-repeat;padding-left:25px;}
 
@@ -44,7 +41,6 @@ img.post_img{
 	border: solid 6px white;
 }
 
-/*DISQUS*/
 #disqus_thread{
   margin-bottom: 10px;
   background:rgba(255, 255, 200, 0.1);
