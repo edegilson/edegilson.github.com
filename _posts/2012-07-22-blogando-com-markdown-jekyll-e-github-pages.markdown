@@ -46,9 +46,10 @@ Já tenho uma sintaxe simples pra escrever meus posts, e uma ferramenta para gera
 
 GitHub Pages
 ------------
-Pra quem não conhece, <a href="https://github.com" alt="github" target="_blank">github</a> é um web hosting compartilhado, escrito em Ruby on Rails, para projetos que usam o controle de versionamento <a href="http://pt.wikipedia.org/wiki/Git" alt="git" target="_blank">git</a>.<br>
+Pra quem não conhece, <a href="https://github.com" alt="github" target="_blank">github</a> é um web hosting compartilhado, escrito em Ruby on Rails, para projetos que usam o controle de versionamento <a href="http://pt.wikipedia.org/wiki/Git" alt="git" target="_blank">git</a>.
 
-Também possui características de uma rede "social coding", onde é possível seguir, trocar mensagens, e ajudar em projetos públicos, interagindo assim com outros desenvolvedores. <br>
+Também possui características de uma rede "social coding", onde é possível seguir, trocar mensagens, e ajudar em projetos públicos, interagindo assim com outros desenvolvedores.
+
 O Github possui um serviço chamado <a href="http://pages.github.com/" alt="github pages" target="_blank">GitHub Pages</a>, que transforma um repositório em um web site. Além disso, ele trabalha muito bem com markdown, e consegue subir um site usando jekyll.
 
 Enfim...
