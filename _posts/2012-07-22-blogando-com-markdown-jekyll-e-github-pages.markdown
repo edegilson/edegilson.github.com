@@ -2,7 +2,8 @@
 layout: post
 title: "Blogando com Markdown, Jekyll e GitHub Pages"
 description: "Um pouco sobre Markdown, Jekyll e GitHub Pages"
-category: Jekyll
+keywords: jekyll, gitHub, markdown
+category: Jekyll, GitHub, Markdown
 tags: [jekyll, github, markdown]
 ---
 
