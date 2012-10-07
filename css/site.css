@@ -8,7 +8,7 @@ div#title{position:fixed;top:0;right:0;padding-right:20px;padding-top:10px;backg
 h1.title, h1.title a, h1.title a:visited{font-family:Verdana,Geneva,sans-serif;font-size:40px;color:#fff;text-decoration:none;}
 p.title_contents{font-size:16px;margin-top:5px;color:#fff;}
 
-div#blog_content{width: 840px;margin:0 auto 60px auto;padding:10px 10 10 10px; padding-top: 60px;}
+div#blog_content{width: 840px;margin:0 auto 60px auto;padding:10px 10 10 10px; padding-top: 100px;}
 ul.posts li{list-style-type:none;}
 ul.posts li a, ul.posts li a:visited{color:#3B5998;}
 ul.posts li p{margin: 5px 0 0 0;font-size: 20px;text-shadow: 1px 1px 1px #CCC;}
