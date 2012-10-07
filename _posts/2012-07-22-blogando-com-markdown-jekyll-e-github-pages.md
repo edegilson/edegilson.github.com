@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "Blogando com Markdown, Jekyll e GitHub há Pages"
+title: "Blogando com Markdown, Jekyll e GitHub Pages"
 ---
 
 Olá pessoal, tudo bem?
