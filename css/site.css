@@ -20,7 +20,8 @@ div#post{margin-bottom:20px;}
 div#post p.post-date{margin: -5px 0 25px 0;letter-spacing: 1px;font-size: 15px;}
 div#post a {text-decoration:none;}
 div#post pre{padding:5px;background-color:#f0f3f3;}
-div#post ul {margin-left: 40px}
+div#post ul {margin-left: 40px;}
+div#post p {line-height: 130%;}
 
 div.topo {float:left;text-align:center;position:fixed;left:0;right:0;top:13%;height:50px;width:100%;background:#3B5998;font-family:Verdana,Geneva,sans-serif;}
 div.topo .topo_content{width: 840px;margin: auto;}
@@ -93,8 +94,8 @@ img.post_img{
 
 
 /*javascript*/
-.js .hll { background-color: #ffffcc }
-.js  { background-color: #ffffcc }
+.js .hll { background-color: #f0f3f3 }
+.js  { background-color: #f0f3f3 }
 .js .c { color: #008800; font-style: italic } /* Comment */
 .js .err { border: 1px solid #FF0000 } /* Error */
 .js .k { color: navy; font-weight: bold } /* Keyword */

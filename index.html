@@ -10,7 +10,7 @@ layout: default
     <span class="date">{{ p.date | date: "%d/%m/%Y" }}</span>
   </p>
   {{ p.content }}
-  <br /><h3><a href="{{ p.url }}#comments">Comentários &raquo;</a></h3>
+  <br /><h3><a href="{{ p.url }}#comments">Comentários..</a></h3>
 </div>
 
 <hr>
@@ -20,7 +20,7 @@ layout: default
     <li>
 		<p>
 			<span>{{ post.date | date: "%d/%m/%Y" }}</span> 
-			&raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+			- <a href="{{ post.url }}">{{ post.title }}</a>
 		</p>
 	</li>
   {% endfor %}
