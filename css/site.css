@@ -23,12 +23,11 @@ div#post pre{padding:5px;background-color:#f0f3f3;}
 div#post ul {margin-left: 40px;}
 div#post p {line-height: 130%;}
 
-div.topo {float:left;text-align:center;position:fixed;left:0;right:0;top:13%;height:50px;width:100%;background:#3B5998;font-family:Verdana,Geneva,sans-serif;}
-div.topo .topo_content{width: 840px;margin: auto;}
-.topo_content a{color:#fff;text-decoration:none;}
-div.topo ul{color:#fff;padding:20px 0;}
-div.topo ul li{list-style-type: none; display: inline;margin-right:27px;}
-div.topo ul li.feed{background: url(/images/feed.png) no-repeat;padding-left:25px;}
+div.topo {float:left;text-align:center;position:fixed;left:0;right:0;height:75px;width:100%;background:#3B5998;font-family:Verdana,Geneva,sans-serif;}
+div.topo .menu{width: 840px;margin: auto; margin-top: 20px;height: 120px;}
+div.topo .menu_item a{color:#fff;text-decoration:none;}
+div.topo ul {color:#fff;padding:20px 0; height: 60px;}
+div.topo ul li{list-style-type: none; display: inline;margin-right:30px;}
 
 div.topo div.search{position: absolute;top: 13px;right: 60px;}
 
